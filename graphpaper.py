@@ -6,12 +6,6 @@ xdimension = 600
 ydimension = 600
 checker1 = 0
 
-scrn = curses.initscr()
-curses.noecho()
-curses.cbreak()
-scrn.keypad(1)
-scrn.nodelay(1)
-
 root = Tk()
 
 xspacing = 10
